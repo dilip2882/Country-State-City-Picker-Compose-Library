@@ -40,8 +40,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":countrystatecitypicker"))
 
+    implementation(project(":core-picker"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

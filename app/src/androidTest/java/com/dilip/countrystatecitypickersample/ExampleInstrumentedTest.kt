@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.dilip.countrystatecitypicker", appContext.packageName)
+        assertEquals("com.dilip.corepicker", appContext.packageName)
     }
 }
