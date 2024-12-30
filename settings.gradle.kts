@@ -22,3 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "CountryStateCityPicker"
 include(":app")
 include(":countrystatecitypicker")
+include(":picker-json-assets")
+include(":picker-api-retrofit")
